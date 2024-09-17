@@ -1,0 +1,41 @@
+.contact__container {
+    display: grid;
+    place-content: center;
+    margin-bottom: 1rem;
+}
+
+.contact__wrapper {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact__wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--color-primary); */
+    font-size: 2rem;
+    border: 2px solid var(--color-primary);
+    transition: var(--transition);
+    border-radius: 1.5rem;
+    padding: .5rem;
+}
+
+.contact__wrapper a:hover {
+    background: transparent;
+    border-color: var(--bg-color);
+}
+
+/* Madia Queries (small screens) */
+@media screen and (max-width:600px) {
+    .contact__wrapper {
+        gap: 1.5rem;
+    }
+
+    .contact__wrapper a {
+        padding: .25rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+    }
+}
