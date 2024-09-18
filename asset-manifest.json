@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/arbitech/static/css/main.fb823585.css",
+    "main.js": "/arbitech/static/js/main.0cb9ec98.js",
+    "static/media/pay point 1.jpg": "/arbitech/static/media/pay point 1.eba654b727f57dbc0036.jpg",
+    "static/media/rolls-royce.jpg": "/arbitech/static/media/rolls-royce.dd61accb80135bfe1a43.jpg",
+    "static/media/Doc3.jpg": "/arbitech/static/media/Doc3.1dd0caa39d43e4eca770.jpg",
+    "static/media/cpms-hilton1.jpg": "/arbitech/static/media/cpms-hilton1.62274f2f308203f9dba9.jpg",
+    "static/media/raise-floor.jpg": "/arbitech/static/media/raise-floor.2c46d9cf14e8365ef926.jpg",
+    "static/media/door2.jpg": "/arbitech/static/media/door2.4662ffbf0a777a6313cb.jpg",
+    "static/media/tollgate-cpms.jpg": "/arbitech/static/media/tollgate-cpms.d76c565dc19ea0ca0b24.jpg",
+    "static/media/fire-system-cylinder1.jpg": "/arbitech/static/media/fire-system-cylinder1.56f1a5e598eb63cd767a.jpg",
+    "static/media/fire-system-cylinder2.jpg": "/arbitech/static/media/fire-system-cylinder2.1fe200b2ffeda1650187.jpg",
+    "static/media/security-double-leaf-door.jpg": "/arbitech/static/media/security-double-leaf-door.81f6e26fe390d426d3ef.jpg",
+    "static/media/Design-residential-security-door_mix_match-series.jpg": "/arbitech/static/media/Design-residential-security-door_mix_match-series.7ab133852a0b04339172.jpg",
+    "static/media/profile_arbitech.jpg": "/arbitech/static/media/profile_arbitech.aa143831d8d8bfcc2c48.jpg",
+    "static/media/emerrgency-exit-double-leaf-door2.jpg": "/arbitech/static/media/emerrgency-exit-double-leaf-door2.ea5f3177dfafcb505cf4.jpg",
+    "static/media/emergency-exit-door1.jpg": "/arbitech/static/media/emergency-exit-door1.ea49fd86d010a3cc6ea8.jpg",
+    "static/media/ups-riello.jpg": "/arbitech/static/media/ups-riello.0814671ed526af551d09.jpg",
+    "static/media/emergency-exit-double-leaf-door.jpg": "/arbitech/static/media/emergency-exit-double-leaf-door.5222107867322eeb6c78.jpg",
+    "static/media/door3.jpg": "/arbitech/static/media/door3.a6266ebdcc7ffc42bc71.jpg",
+    "static/media/car-gate-barrier.webp": "/arbitech/static/media/car-gate-barrier.08fc5fec9a06f4825587.webp",
+    "static/media/arbitech-logo.jpg": "/arbitech/static/media/arbitech-logo.fc3dd400f74434f420ea.jpg",
+    "static/media/raise-floor-tiles1.jpg": "/arbitech/static/media/raise-floor-tiles1.3f5b583c0dbc57e28892.jpg",
+    "index.html": "/arbitech/index.html",
+    "main.fb823585.css.map": "/arbitech/static/css/main.fb823585.css.map",
+    "main.0cb9ec98.js.map": "/arbitech/static/js/main.0cb9ec98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb823585.css",
+    "static/js/main.0cb9ec98.js"
+  ]
+}
