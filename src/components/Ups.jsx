@@ -1,15 +1,17 @@
 import React from 'react'
 import Image1 from "../images/ups-riello.jpg"
+
 const Ups = () => {
+
     return (
         <div className="bg-color">
             <div className="container row mid_scren">
-                <div className="first__item">
+                <div className="col">
                     <h2>POWER SYSTEM</h2>
                     <img src={Image1} alt="" />
                 </div>
-                <div>
-                    <div className="col">
+                <div className="col">
+                    <div>
                         <h3>Rotary UPS</h3>
                         <p>Arbitech in partnership with HITZINGER GMbH Austria are providing tailored power solution of rotating electrical machines for Nigeria market. This power solution covers five product lines:</p>
                         <ul>
@@ -21,7 +23,7 @@ const Ups = () => {
                         </ul>
                         <p>Hitzinger is the manufacturer of Dynamic Diesel UPS System with 20 years experience, supporting critical loads including Data center, semi conductor Chip fabrications.</p>
                     </div>
-                    <div className="col">
+                    <div>
                         <h3>Static UPS</h3>
                         <p>Arbitech Nigeria Limited in collaboration with RIELLO(ITALY) and MUST (CHINA) as the supplier for backup and regulatory power supply equipment power supply equipment for computer rooms, ATMS, Communication equipment etc. Also RIELLO (ITALY) also supply industrial rectifiers. We have a team of factory trained engineers and we provide installation and maintenance for the following range of products.</p>
                         <ul>

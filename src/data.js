@@ -12,7 +12,28 @@ export const links = [
         path: '/contact'
     }
 ]
-
+export const imageSlides = [
+    {
+        id: 1,
+        image: require('./images/arbitech-profile.jpg')
+    },
+    {
+        id: 2,
+        image: require('./images/cpms-hilton1.jpg')
+    },
+    {
+        id: 3,
+        image: require('./images/ups-riello.jpg')
+    },
+    {
+        id: 4,
+        image: require('./images/rf-installation-laminated.jpg')
+    },
+    {
+        id: 5,
+        image: require('./images/door2.jpg')
+    },
+]
 export const jobdone = [
     {
         id: 1,
@@ -30,7 +51,7 @@ export const jobdone = [
     },
     {
         id: 3,
-        icon: require('./images/raise-floor-tiles1.jpg'),
+        icon: require('./images/raise-floor.jpg'),
         title: "Raised-Floor System",
         info: "Mero access floor system is generally used for Server / Computer rooms for good cable managenents...",
         path: "/services/raise-floor"
@@ -50,7 +71,6 @@ export const jobdone = [
         path: "/services/security-doors"
     }
 ]
-
 export const services = [
     {
         id: 1,
@@ -60,7 +80,7 @@ export const services = [
     },
     {
         id: 2,
-        image: require('./images/raise-floor-tiles1.jpg'),
+        image: require('./images/raise-floor.jpg'),
         name: 'Raised Floor System',
         job: 'NNPC Project (MERO - Italy) - Abuja',
     },
@@ -71,8 +91,7 @@ export const services = [
         job: 'Riello UPS - Italy',
     }
 ]
-
-export const cpms_testimonials = [
+export const cpms = [
     {
         id: 1,
         avatar: require("./images/cpms-hilton1.jpg"),
@@ -81,7 +100,7 @@ export const cpms_testimonials = [
     },
     {
         id: 2,
-        avatar: require("./images/pay point 1.jpg"),
+        avatar: require("./images/car-park-pay point 1.jpg"),
         name: "Payment Point",
         job: "Software Egineer",
     },
@@ -93,12 +112,12 @@ export const cpms_testimonials = [
     },
     {
         id: 4,
-        avatar: require("./images/tollgate-cpms.jpg"),
-        name: "Till-Gate System",
+        avatar: require("./images/car-park-tollgate-cpms.jpg"),
+        name: "Toll-Gate System",
         job: "Talking Parrot",
     }
 ]
-export const door_testimonials = [
+export const doors = [
     {
         id: 1,
         avatar: require("./images/security-double-leaf-door.jpg"),
@@ -129,4 +148,48 @@ export const door_testimonials = [
         avatar: require("./images/emerrgency-exit-double-leaf-door2.jpg"),
         name: "Double-Leaf Emergency Exit Door"
     },
+]
+export const raise_floors = [
+    {
+        id: 1,
+        avatar: require("./images/rf-installation-granite.jpg"),
+        name: "Raise Floor Granite Finish"
+    },
+    {
+        id: 2,
+        avatar: require("./images/rf-installation-granite1.jpg"),
+        name: "Raise Floor Granite Finish During Installation"
+    },
+    {
+        id: 3,
+        avatar: require("./images/rf-installation-laminated1.jpg"),
+        name: "Raise Floor Laminated Finish"
+    },
+    {
+        id: 4,
+        avatar: require("./images/rf-installation-laminated2.jpg"),
+        name: "Raise Floor Laminate Finish During Installation"
+    }
+]
+export const fire_systems = [
+    {
+        id: 1,
+        avatar: require("./images/fire-system-cylinder1.jpg"),
+        name: "Fire Supression Cylinder with Kits."
+    },
+    {
+        id: 2,
+        avatar: require("./images/fire-system-cylinder2.jpg"),
+        name: "Fire System"
+    },
+    {
+        id: 3,
+        avatar: require("./images/fire-system-cylinder3.jpg"),
+        name: "Fire System Installed at NNPC-Tower"
+    },
+    {
+        id: 4,
+        avatar: require("./images/fire-system-piping2.jpg"),
+        name: "Piping System"
+    }
 ]

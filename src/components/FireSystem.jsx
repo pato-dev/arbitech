@@ -1,13 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
+import SectionHead from "./SectionHead";
+import { ImQuotesLeft } from 'react-icons/im';
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
+import { fire_systems } from "../data";
+import Card from '../UI/Card';
+import { Link } from 'react-router-dom';
 import FireSystemCylinder from "../images/fire-system-cylinder2.jpg"
 
 const FireSystem = () => {
+    const [index, setIndex] = useState(0);
+    const { name, avatar } = fire_systems[index];
+
+    const prevTestimonialHandler = () => {
+        setIndex(prev => prev - 1);
+        if (index <= 0) {
+            setIndex(fire_systems.length - 1)
+        }
+    }
+    const nextTestimonialHandler = () => {
+        setIndex(prev => prev + 1);
+        if (index >= fire_systems.length - 1) {
+            setIndex(0)
+        }
+    }
     return (
         <div className="bg-color">
             <div className="container row mid_scren">
-                <div className="first__item">
-                    <p style={{ marginBottom: "1rem" }}><center>FIRE SUPPRESSION SYSTEMS</center></p>
-                    <h2>FM-200 FIRE SUPPRESSION SYSTEMS</h2>
+                <div className='col'>
+                    <h2><center>FIRE SUPPRESSION SYSTEMS</center></h2>
                     <img src={FireSystemCylinder} alt="" />
                 </div>
                 <div>
@@ -20,6 +40,24 @@ const FireSystem = () => {
                     </div>
                 </div>
             </div>
+            <section className="testimonials">
+                <div className="testimonials__container">
+                    <SectionHead icon={<ImQuotesLeft />} title="Fire System" className="testimonials__head" />
+                    <Card className='testimonial'>
+                        <img src={avatar} alt={name} />
+                        <p>{name}</p>
+                    </Card>
+                    <div className="testimonials__btn-container">
+                        <button className="testimonials__btn" onClick={prevTestimonialHandler}>
+                            <IoIosArrowDropleftCircle />
+                        </button>
+                        <button className="testimonials__btn" onClick={nextTestimonialHandler}>
+                            <IoIosArrowDroprightCircle />
+                        </button>
+                    </div>
+                    <Link to='/' className='btn sm' style={{ display: "flex", marginTop: ".5rem" }}>Back</Link>
+                </div>
+            </section>
         </div>
     )
 }

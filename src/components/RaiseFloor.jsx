@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
+import SectionHead from "./SectionHead";
+import { ImQuotesLeft } from 'react-icons/im';
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
+import { raise_floors } from "../data";
+import Card from '../UI/Card';
+import { Link } from 'react-router-dom';
 import Raisefloor from "../images/raise-floor.jpg"
 
 const RaiseFloor = () => {
+    const [index, setIndex] = useState(0);
+    const { name, avatar } = raise_floors[index];
+
+    const prevTestimonialHandler = () => {
+        setIndex(prev => prev - 1);
+        if (index <= 0) {
+            setIndex(raise_floors.length - 1)
+        }
+    }
+    const nextTestimonialHandler = () => {
+        setIndex(prev => prev + 1);
+        if (index >= raise_floors.length - 1) {
+            setIndex(0)
+        }
+    }
     return (
         <div className="bg-color">
             <div className="container row mid_scren">
@@ -37,6 +58,24 @@ const RaiseFloor = () => {
                     </div>
                 </div>
             </div>
+            <section className="testimonials">
+                <div className="testimonials__container">
+                    <SectionHead icon={<ImQuotesLeft />} title="Raise Floor System" className="testimonials__head" />
+                    <Card className='testimonial'>
+                        <img src={avatar} alt={name} />
+                        <p>{name}</p>
+                    </Card>
+                    <div className="testimonials__btn-container">
+                        <button className="testimonials__btn" onClick={prevTestimonialHandler}>
+                            <IoIosArrowDropleftCircle />
+                        </button>
+                        <button className="testimonials__btn" onClick={nextTestimonialHandler}>
+                            <IoIosArrowDroprightCircle />
+                        </button>
+                    </div>
+                    <Link to='/' className='btn sm' style={{ display: "flex", marginTop: ".5rem" }}>Back</Link>
+                </div>
+            </section>
         </div>
     )
 }

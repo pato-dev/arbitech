@@ -12,10 +12,7 @@ const Footer = () => {
         <footer>
             <div className='container footer__container'>
                 <article>
-                    {/* <Link to="/" className="logo" >
-                        <img src={Logo} alt="Footer Logo" />
-                    </Link> */}
-                    <h3>Arbitech Nigeria Limited</h3>
+                    <h4>Arbitech Nigeria Limited</h4>
                     <p className='desc'>
                         At Arbitech Nigeria Limited every person in our company is a member of the team and team player. With the expectation and the need that they perform their duties to their fullest capacity and potential. The client satisfaction is our major focus. Reached through innovative and cost effective service delivery.</p>
                     <div className="footer__socials">
