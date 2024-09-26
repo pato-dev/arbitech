@@ -18,8 +18,8 @@ const About = () => {
                 </ul>
             </Header>
             <section className="section-three">
-                <div className="container row">
-                    <div className="col">
+                <div className="container row mid_scren">
+                    <div className="col about__col">
                         <h2 className="section-title">Our Values</h2>
                         <p className='col_p'>
                             <p>Innovation.</p>
@@ -28,30 +28,30 @@ const About = () => {
                             <p>Power Quality and LEAN Excellence.</p>
                         </p>
                     </div>
-                    <div className="col col_img">
+                    <div className="col about__col col_img">
                         <img src={StoryImage} alt="Our Story img" />
                     </div>
                 </div>
             </section>
 
             <section className="section-four">
-                <div className="container row">
-                    <div className="col col_img">
+                <div className="container row mid_scren">
+                    <div className="col about__col col_img">
                         <img src={VisionImage} alt="Our Vision img" />
                     </div>
-                    <div className="col">
+                    <div className="col about__col">
                         <h2 className="section-title">Our Vision</h2>
                         <p>To be the leading Car Park Automation and Power Solution provider in Nigeria and West Africa with a highly trained and efficient team of Enginners and customer service personnel.</p>
                     </div>
                 </div>
             </section>
             <section className="section-three">
-                <div className="container row">
-                    <div className="col">
+                <div className="container row mid_scren">
+                    <div className="col about__col">
                         <h2 className="section-title">Our Mission</h2>
                         <p>Our mission is to provide quality power solutions and car park automation solution that creates winning business for our customers, save energy and protect the environment.</p>
                     </div>
-                    <div className="col col_img">
+                    <div className="col about__col col_img">
                         <img src={MissionImage} alt="Our Mission img" />
                     </div>
                 </div>

@@ -309,11 +309,6 @@ img {
     margin-bottom: 1rem;
 }
 
-.first__item,
-.second__item {
-    margin: auto 0;
-}
-
 .bg-color {
     padding: 1rem;
 }
@@ -367,12 +362,6 @@ img {
     fill: var(--bg-color);
 }
 
-/* .pms_img {
-    height: 25rem;
-    width: 100%;
-    margin-bottom: 0.5rem;
-} */
-
 /* MEDIA QUERRIES (mediun screens) */
 @media screen and (max-width:1024px) {
     .container {
@@ -386,10 +375,6 @@ img {
     h2 {
         font-size: 1.6rem;
     }
-
-    /* .main__header {
-        margin-top: 1rem;
-    } */
 
     .header__content {
         width: 76%;
@@ -449,6 +434,12 @@ img {
     .mid_scren {
         grid-template-columns: 1fr;
         gap: 0;
+    }
+
+    .about__col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .main__header-right {

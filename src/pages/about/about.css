@@ -8,9 +8,12 @@
     color: #fff;
 }
 
+.col {
+    padding-top: 1.5rem;
+}
+
 .col_img img {
     width: 100%;
-    height: 18rem !important;
 }
 
 .col_p {
@@ -19,6 +22,12 @@
 
 /* Madia Queries (small screens) */
 @media (min-width:768px) {
+    .about__col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .intro__title {
         font-size: 3.75rem;
     }

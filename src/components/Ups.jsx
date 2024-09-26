@@ -6,11 +6,11 @@ const Ups = () => {
     return (
         <div className="bg-color">
             <div className="container row mid_scren">
-                <div className="col">
+                <div className="col about__col">
                     <h2>POWER SYSTEM</h2>
                     <img src={Image1} alt="" />
                 </div>
-                <div className="col">
+                <div className="col about__col">
                     <div>
                         <h3>Rotary UPS</h3>
                         <p>Arbitech in partnership with HITZINGER GMbH Austria are providing tailored power solution of rotating electrical machines for Nigeria market. This power solution covers five product lines:</p>

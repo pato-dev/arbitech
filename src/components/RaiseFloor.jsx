@@ -26,12 +26,12 @@ const RaiseFloor = () => {
     return (
         <div className="bg-color">
             <div className="container row mid_scren">
-                <div className="first__item">
+                <div className="col about__col">
                     <h2>RAISE FLOOR SYSTEM</h2>
                     <img src={Raisefloor} alt="" />
                 </div>
-                <div>
-                    <div className="col">
+                <div className="col about__col">
+                    <div>
                         <center><h2>Mero Raised-flooring System (Italy)</h2></center>
                         <h3>MERO access floor is used for:</h3>
                         <ul>

@@ -26,11 +26,11 @@ const SecurityDoor = () => {
     return (
         <div className='bg-color'>
             <div className="container row mid_scren">
-                <div className="col">
+                <div className="col about__col">
                 <h2>SECURITY DOOR</h2>
                     <img src={Image1} alt="security-door" /> 
                 </div>
-                <div className='col'>
+                <div className='col about__col'>
                     <div>
                         <h3>Laminate Doors.</h3>
                         <p>Laminate doorss crafted from HDF or MDF, prioritize customers by providing an array of customizable styles that blend affordability with durability.</p>
